@@ -1,7 +1,7 @@
-# Data: Demographic and Astrological Stereotypes in the Jev Decision Model
+# Data: The Jev decision model applies astrological and demographic stereotypes when recommending friends
 
-Data for *Demographic and Astrological Stereotypes in the Jev Decision Model:
-Evidence from Friendship Recommendations* (Nouar AlDahoul, 2026).
+Data for *The Jev decision model applies astrological and demographic stereotypes when recommending friends*
+(Nouar AlDahoul and Yasir Zaki, 2026).
 
 The data come from forced-choice conjoint experiments in which the Jev
 decision model (`typesafe/jev-1.13`, accessed through OpenRouter's Decisions
@@ -15,8 +15,8 @@ profession, and zodiac sign.
 |---|---|---|---|
 | `data/study1_conjoint.csv` | **Study 1**: Jev knows nothing about the user | 20,000 | 40,096 |
 | `data/study2_conjoint.csv` | **Study 2**: the prompt also describes the user | 20,000 | 40,000 |
-| `data/reasons_study1.csv` | **Reasons experiment**, Study 1 design, with a question asking for the main reason | 20,000 | 40,000 |
-| `data/reasons_study2.csv` | **Reasons experiment**, Study 2 design, with a question asking for the main reason | 20,000 | 40,000 |
+| `data/reasons_study1.csv` | **Study 3 (reasons experiment)**, Study 1 design, with a question asking for the main reason | 20,000 | 40,000 |
+| `data/reasons_study2.csv` | **Study 3 (reasons experiment)**, Study 2 design, with a question asking for the main reason | 20,000 | 40,000 |
 
 All files are in long format: **one row per candidate per call**. Each call
 shows Jev two candidates, so each call has two rows (positions A and B).
@@ -140,5 +140,5 @@ better-suited friend:
 
 If you use these data, please cite:
 
-> AlDahoul, N. (2026). Demographic and Astrological Stereotypes in the Jev
-> Decision Model: Evidence from Friendship Recommendations.
+> AlDahoul, N., & Zaki, Y. (2026). The Jev decision model applies astrological
+> and demographic stereotypes when recommending friends.
