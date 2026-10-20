@@ -140,5 +140,8 @@ better-suited friend:
 
 If you use these data, please cite:
 
+Aldahoul, Nouar and Zaki, Yasir, The Jev Decision Model Applies Astrological And Demographic Stereotypes When Recommending Friends (October 19, 2026). Available at SSRN: https://ssrn.com/abstract=7633902
+
+
 > AlDahoul, N., & Zaki, Y. (2026). The Jev decision model applies astrological
 > and demographic stereotypes when recommending friends.
